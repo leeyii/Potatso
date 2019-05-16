@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07011FD8228CF88E004ED5FB /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07011FD6228CF88D004ED5FB /* libssl.a */; };
+		07011FD9228CF88E004ED5FB /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07011FD7228CF88D004ED5FB /* libcrypto.a */; };
+		07011FE3228CFA7E004ED5FB /* LibYAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07011FE2228CFA7D004ED5FB /* LibYAML.framework */; };
+		07011FE4228CFA7E004ED5FB /* LibYAML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07011FE2228CFA7D004ED5FB /* LibYAML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07011FE6228CFAD0004ED5FB /* YAML_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07011FE5228CFACF004ED5FB /* YAML_Framework.framework */; };
+		07011FE7228CFAD0004ED5FB /* YAML_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07011FE5228CFACF004ED5FB /* YAML_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1AAC61E76574642AD2BF3E5E /* Pods_TodayWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F065271ABB55B741DA5E5 /* Pods_TodayWidget.framework */; };
 		1ED659011E05C73100D4BEE3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED659001E05C73100D4BEE3 /* CloudKit.framework */; };
 		1ED659061E05E88C00D4BEE3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED659051E05E88C00D4BEE3 /* GameKit.framework */; };
@@ -17,7 +23,6 @@
 		1EEBB8791FFFD8A700EB33C3 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEBB8761FFFD4B500EB33C3 /* NetworkExtension.framework */; };
 		1EF602951F113A660005E0C7 /* GeoLite2-Country.mmdb in Resources */ = {isa = PBXBuildFile; fileRef = 1EF602941F113A660005E0C7 /* GeoLite2-Country.mmdb */; };
 		49AFCAB8A7A7C95E61767328 /* Pods_PacketProcessor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075A0EDC2AD266124CA24078 /* Pods_PacketProcessor.framework */; };
-		73AC1EAA0D7C41952F34CF14 /* Pods_PotatsoLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A646ACF237B032E4A2016FC /* Pods_PotatsoLibraryTests.framework */; };
 		82F0934D24F9F56921AF0EE0 /* Pods_PotatsoModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD33A4FF6B8E224B4FF4A210 /* Pods_PotatsoModel.framework */; };
 		9B07D6B31CB7A6A900182C1B /* PotatsoLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07D6B21CB7A6A900182C1B /* PotatsoLibraryTests.swift */; };
 		9B07D6B51CB7A6A900182C1B /* PotatsoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9B15BD1C21595B000B6541 /* PotatsoLibrary.framework */; };
@@ -185,8 +190,6 @@
 		B88096B01D0579F5008BEB87 /* CloudDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88096AF1D0579F5008BEB87 /* CloudDetailViewController.swift */; };
 		B88096B21D0652F0008BEB87 /* RuleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88096B11D0652F0008BEB87 /* RuleCell.swift */; };
 		B8822CCD1D2AA70A00AD252C /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = B8822CCC1D2AA70A00AD252C /* Receipt.m */; };
-		B8822CD31D2B81C400AD252C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8822CD11D2B81C400AD252C /* libcrypto.a */; };
-		B8822CD41D2B81C400AD252C /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8822CD21D2B81C400AD252C /* libssl.a */; };
 		B88559F01D21371A00B1243E /* PotatsoModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC6FFEA1CB28B4B00E5EA61 /* PotatsoModel.framework */; };
 		B88874491D18186100AEF002 /* ShadowPath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B86B08E91D17F84900613014 /* ShadowPath.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B896A8401D548AAC009E4BF5 /* ICloudSetupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896A83F1D548AAC009E4BF5 /* ICloudSetupOperation.swift */; };
@@ -325,7 +328,9 @@
 				9BC6FFF21CB28B4B00E5EA61 /* PotatsoModel.framework in Embed Frameworks */,
 				9B9B15C51C21595B000B6541 /* PotatsoLibrary.framework in Embed Frameworks */,
 				9BC600251CB2921C00E5EA61 /* PotatsoBase.framework in Embed Frameworks */,
+				07011FE7228CFAD0004ED5FB /* YAML_Framework.framework in Embed Frameworks */,
 				9BDA62631CAE2576007F2581 /* PacketProcessor.framework in Embed Frameworks */,
+				07011FE4228CFA7E004ED5FB /* LibYAML.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +338,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07011FD6228CF88D004ED5FB /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = Library/ShadowPath/ShadowPath/libopenssl/lib/libssl.a; sourceTree = "<group>"; };
+		07011FD7228CF88D004ED5FB /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = Library/ShadowPath/ShadowPath/libopenssl/lib/libcrypto.a; sourceTree = "<group>"; };
+		07011FE2228CFA7D004ED5FB /* LibYAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LibYAML.framework; sourceTree = "<group>"; };
+		07011FE5228CFACF004ED5FB /* YAML_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAML_Framework.framework; sourceTree = "<group>"; };
 		075A0EDC2AD266124CA24078 /* Pods_PacketProcessor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PacketProcessor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09342A48F0EEF2F3F6AD64A8 /* Pods-PacketProcessor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketProcessor.debug.xcconfig"; path = "Target Support Files/Pods-PacketProcessor/Pods-PacketProcessor.debug.xcconfig"; sourceTree = "<group>"; };
 		1ECA215E1E05E8C700B32187 /* Potatso.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Potatso.entitlements; sourceTree = "<group>"; };
@@ -345,7 +354,6 @@
 		1EEBB8761FFFD4B500EB33C3 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		1EF602941F113A660005E0C7 /* GeoLite2-Country.mmdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeoLite2-Country.mmdb"; sourceTree = "<group>"; };
 		3C9A6823014EF76FB5F7725A /* Pods-PotatsoLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoLibrary.debug.xcconfig"; path = "Target Support Files/Pods-PotatsoLibrary/Pods-PotatsoLibrary.debug.xcconfig"; sourceTree = "<group>"; };
-		4A646ACF237B032E4A2016FC /* Pods_PotatsoLibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PotatsoLibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD84123306F4F6D572556EB /* Pods-PacketTunnel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketTunnel.release.xcconfig"; path = "Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel.release.xcconfig"; sourceTree = "<group>"; };
 		570BF2420B2759837DB12503 /* Pods-PotatsoModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoModel.release.xcconfig"; path = "Target Support Files/Pods-PotatsoModel/Pods-PotatsoModel.release.xcconfig"; sourceTree = "<group>"; };
 		580482A21595A1FD951E8265 /* Pods-PotatsoModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoModel.debug.xcconfig"; path = "Target Support Files/Pods-PotatsoModel/Pods-PotatsoModel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -880,9 +888,6 @@
 		B88096B11D0652F0008BEB87 /* RuleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleCell.swift; sourceTree = "<group>"; };
 		B8822CCB1D2AA70A00AD252C /* Receipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
 		B8822CCC1D2AA70A00AD252C /* Receipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
-		B8822CD11D2B81C400AD252C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "Library/ShadowPath/ShadowPath/shadowsocks-libev/libopenssl/lib/libcrypto.a"; sourceTree = "<group>"; };
-		B8822CD21D2B81C400AD252C /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "Library/ShadowPath/ShadowPath/shadowsocks-libev/libopenssl/lib/libssl.a"; sourceTree = "<group>"; };
-		B88559EA1D21319D00B1243E /* YAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAML.framework; path = Carthage/Build/iOS/YAML.framework; sourceTree = "<group>"; };
 		B896A83F1D548AAC009E4BF5 /* ICloudSetupOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICloudSetupOperation.swift; sourceTree = "<group>"; };
 		B8A09D681D51B42B00A9A989 /* CloudKitRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitRecord.swift; sourceTree = "<group>"; };
 		B8A09D741D51B9A900A9A989 /* AlertOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertOperation.swift; sourceTree = "<group>"; };
@@ -933,7 +938,6 @@
 			files = (
 				9B07D6BE1CB7AF0000182C1B /* PotatsoModel.framework in Frameworks */,
 				9B07D6B51CB7A6A900182C1B /* PotatsoLibrary.framework in Frameworks */,
-				73AC1EAA0D7C41952F34CF14 /* Pods_PotatsoLibraryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,16 +945,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07011FD8228CF88E004ED5FB /* libssl.a in Frameworks */,
+				07011FE3228CFA7E004ED5FB /* LibYAML.framework in Frameworks */,
+				07011FD9228CF88E004ED5FB /* libcrypto.a in Frameworks */,
 				B86B08ED1D17FB9B00613014 /* ShadowPath.framework in Frameworks */,
+				07011FE6228CFAD0004ED5FB /* YAML_Framework.framework in Frameworks */,
 				1EEBB8771FFFD4B500EB33C3 /* NetworkExtension.framework in Frameworks */,
 				9BC600241CB2921C00E5EA61 /* PotatsoBase.framework in Frameworks */,
 				9BDA62621CAE2576007F2581 /* PacketProcessor.framework in Frameworks */,
 				1ED659061E05E88C00D4BEE3 /* GameKit.framework in Frameworks */,
 				9B9B15C41C21595B000B6541 /* PotatsoLibrary.framework in Frameworks */,
 				9BC6FFF11CB28B4B00E5EA61 /* PotatsoModel.framework in Frameworks */,
-				B8822CD31D2B81C400AD252C /* libcrypto.a in Frameworks */,
 				1ED659011E05C73100D4BEE3 /* CloudKit.framework in Frameworks */,
-				B8822CD41D2B81C400AD252C /* libssl.a in Frameworks */,
 				1ED66DEE1E05A72300638808 /* StoreKit.framework in Frameworks */,
 				D9840AAFF707D5FEE15E786F /* Pods_Potatso.framework in Frameworks */,
 			);
@@ -2037,20 +2043,20 @@
 		C8B2149E8757C44C469576D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07011FE5228CFACF004ED5FB /* YAML_Framework.framework */,
+				07011FE2228CFA7D004ED5FB /* LibYAML.framework */,
+				07011FD7228CF88D004ED5FB /* libcrypto.a */,
+				07011FD6228CF88D004ED5FB /* libssl.a */,
 				1EEBB8761FFFD4B500EB33C3 /* NetworkExtension.framework */,
 				1ED659051E05E88C00D4BEE3 /* GameKit.framework */,
 				1ED659001E05C73100D4BEE3 /* CloudKit.framework */,
 				1ED66DED1E05A72300638808 /* StoreKit.framework */,
-				B8822CD11D2B81C400AD252C /* libcrypto.a */,
-				B8822CD21D2B81C400AD252C /* libssl.a */,
-				B88559EA1D21319D00B1243E /* YAML.framework */,
 				9B87060C1C1DBDD400651424 /* libresolv.tbd */,
 				9B8193B31CBCFEE700BE320D /* NotificationCenter.framework */,
 				075A0EDC2AD266124CA24078 /* Pods_PacketProcessor.framework */,
 				F418F761ED5A1D6D44F6B978 /* Pods_PacketTunnel.framework */,
 				C6A90249DDE27A9D618C3640 /* Pods_Potatso.framework */,
 				CDF9F2A6320F1AC7B894EFB9 /* Pods_PotatsoLibrary.framework */,
-				4A646ACF237B032E4A2016FC /* Pods_PotatsoLibraryTests.framework */,
 				DD33A4FF6B8E224B4FF4A210 /* Pods_PotatsoModel.framework */,
 				946F065271ABB55B741DA5E5 /* Pods_TodayWidget.framework */,
 			);
@@ -2318,7 +2324,7 @@
 					};
 					9B0CFA0A1C1C0B1A007BD7C6 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = XGKHW634KL;
+						DevelopmentTeam = CE7Z2WQ7MW;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -2350,12 +2356,13 @@
 					};
 					9B0CFA1E1C1C0B1B007BD7C6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CE7Z2WQ7MW;
 						LastSwiftMigration = 0820;
 						TestTargetID = 9B0CFA0A1C1C0B1A007BD7C6;
 					};
 					9B8193B11CBCFEE700BE320D = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = XGKHW634KL;
+						DevelopmentTeam = CE7Z2WQ7MW;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -2375,7 +2382,7 @@
 					};
 					9B8705F91C1D788F00651424 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = XGKHW634KL;
+						DevelopmentTeam = CE7Z2WQ7MW;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -2544,15 +2551,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TodayWidget-checkManifestLockResult.txt",
 			);
@@ -2565,8 +2568,6 @@
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Potatso/Pods-Potatso-frameworks.sh",
@@ -2594,8 +2595,6 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftColor/SwiftColor.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Appirater.framework",
@@ -2630,15 +2629,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PotatsoLibrary-checkManifestLockResult.txt",
 			);
@@ -2652,15 +2647,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PacketTunnel-checkManifestLockResult.txt",
 			);
@@ -2674,15 +2665,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PotatsoModel-checkManifestLockResult.txt",
 			);
@@ -2696,15 +2683,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PotatsoLibraryTests-checkManifestLockResult.txt",
 			);
@@ -2718,8 +2701,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PotatsoLibraryTests/Pods-PotatsoLibraryTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ICSMainFramework/ICSMainFramework.framework",
@@ -2732,8 +2713,6 @@
 				"${BUILT_PRODUCTS_DIR}/YAML-Framework/YAML_Framework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ICSMainFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
@@ -2824,15 +2803,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Potatso-checkManifestLockResult.txt",
 			);
@@ -2846,15 +2821,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PacketProcessor-checkManifestLockResult.txt",
 			);
@@ -3308,7 +3279,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3334,7 +3305,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @rpath/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShadowPath/ShadowPath/libopenssl/lib";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doweidu.Shadowrocket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3355,7 +3326,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3376,7 +3347,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @rpath/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)/ShadowPath/ShadowPath/libopenssl/lib";
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doweidu.Shadowrocket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3392,6 +3363,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				INFOPLIST_FILE = PotatsoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.PotatsoTests;
@@ -3406,6 +3378,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				INFOPLIST_FILE = PotatsoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.PotatsoTests;
@@ -3426,7 +3399,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -3434,7 +3407,7 @@
 				INFOPLIST_FILE = TodayWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.todaywidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doweidu.Shadowrocket.todaywidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3453,7 +3426,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -3461,7 +3434,7 @@
 				INFOPLIST_FILE = TodayWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.todaywidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doweidu.Shadowrocket.todaywidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3480,7 +3453,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3508,7 +3481,7 @@
 					"$(PROJECT_DIR)/PacketTunnel/Shadowsocks/libsodium-ios/lib",
 					"$(PROJECT_DIR)/PacketTunnel",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.tunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doweidu.Shadowrocket.tunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3525,7 +3498,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XGKHW634KL;
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3552,7 +3525,7 @@
 					"$(PROJECT_DIR)/PacketTunnel/Shadowsocks/libsodium-ios/lib",
 					"$(PROJECT_DIR)/PacketTunnel",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.tunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doweidu.Shadowrocket.tunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3577,7 +3550,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PotatsoLibrary",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PotatsoLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
